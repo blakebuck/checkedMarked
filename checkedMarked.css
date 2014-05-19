@@ -1,0 +1,16 @@
+.checkMarked {
+    border: solid 3px #BCC4CB;
+    border-radius: 5px;
+    display: inline-block;
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+}
+.checkMarked.checked {
+    background: url("./checked-mark.png");
+}
+.checkedMarkedlabel {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+}
