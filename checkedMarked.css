@@ -8,6 +8,7 @@
 }
 .checkMarked.checked {
     background: url("./checked-mark.png");
+    background-size: 100%;
 }
 .checkedMarkedlabel {
     display: inline-block;

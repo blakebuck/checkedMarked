@@ -2,18 +2,27 @@
 <html>
   <head>
     <link href="checkedMarked.css" rel="stylesheet">
+  </head>
+  <body>
+    <b>Checkbox With Label:</b><br>
+    <label>
+      <input type="checkbox"> Check Here!
+    </label>
+    <br><br>
+    <b>Already Checked Checkbox</b><br>
+    <label>
+      <input type="checkbox" checked> Check Here!
+    </label>
+    <br><br>
+    <b>No Label Checkbox</b><br>
+    <input type="checkbox">
+  
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="checkedMarked.js"></script>
     <script type="text/javascript">
       $(function(){
         $("input[type='checkbox']").checkedMarked();
       });
     </script>
-  </head>
-  <body>
-    <label>
-      <input type="checkbox"> Check Here!
-    </label>
-  
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="checkedMarked.js"></script>
   <body>
 </html>
