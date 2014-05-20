@@ -27,7 +27,7 @@
             
             // Check to see if checkbox is already checked
             if ($(this).attr("checked")) {
-                toggleCheckBox($(this).closest(".checkMarked"));
+                $(this).closest(".checkMarked").toggleClass("checked");
             }
         });                
         
