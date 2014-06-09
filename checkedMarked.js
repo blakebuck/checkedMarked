@@ -23,7 +23,7 @@
             
             // Create new checkbox and hide old one
             $(this).wrap("<span class='checkMarked'>&nbsp</span>");
-            $(".checkMarked input[type='checkbox']").hide();
+            $(".checkMarked input[type='checkbox']").addClass("sr-only");
             
             // Check to see if checkbox is already checked
             if ($(this).attr("checked")) {
