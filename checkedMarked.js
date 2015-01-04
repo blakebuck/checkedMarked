@@ -32,7 +32,7 @@
             $(".checkMarked input[type='checkbox']").addClass("sr-only");
 
             // Check to see if checkbox is already checked
-            if ($(this).attr("checked")) {
+            if ($(this).is(":checked")) {
                 $(this).closest(".checkMarked").toggleClass("checked");
             }
 
