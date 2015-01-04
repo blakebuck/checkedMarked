@@ -1,6 +1,10 @@
-@font-face {
-    font-family: 'glyphicons';
-    src: url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.woff') format('woff');
+@font-face{
+    font-family:'glyphicons';
+    src:url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot);
+    src:url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),
+    url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.woff) format('woff'),
+    url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.ttf) format('truetype'),
+    url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .checkMarked {
