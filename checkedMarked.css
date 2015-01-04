@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'glyphicons';
+    src: url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
 .checkMarked {
     background-image: linear-gradient(#EDEDED, #DEDEDE);
     border: solid 1px #ACACAC;
@@ -24,10 +29,11 @@
 .checked:after {
     color: #414141;
     /*color: #7AB317;*/ /* Green */
-    content: '\2714';
-    font-size: 40px;
+    content: '\e013';
+    font-family: glyphicons;
+    font-size: 37px;
     line-height: 1.2em;
-    padding-left: 5px;
+    padding-left: 1px;
 }
 .sr-only {
     position: absolute;
